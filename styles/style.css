@@ -1,0 +1,133 @@
+/*------ fonts
+-----------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #AAAAAA;
+   
+}
+.container{
+    background: whitesmoke;
+    margin-right: 80px;
+    
+}
+.section-part{
+    margin-bottom: 100px;
+}
+
+/* ---------navigaton styles
+-------------- */
+nav h2 ul{
+    align-items: center;
+}
+.navigation-area{
+    display: flex;
+    align-items: center;
+   
+}
+.navigation-menu{
+    display: flex;
+    margin-left: 500px;
+   
+}
+.navigation-menu ul{
+    list-style: none;
+    display: flex;
+    
+  
+}
+.navigation-menu li{
+    margin-right: 20px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* first section styles */
+.influencer-introduce{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+.influencer-info{
+    width: 582px;
+    height: 270px;
+}
+.camera {
+    width: 440px;
+    height: 414px;
+    
+    border: 1px solid rgb(235, 229, 229);
+    border-radius: 50%;  
+}
+.influencer-info button{
+    background: #E02C6D;
+    border: none;
+    color: azure;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.company-logo{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(238, 235, 235);
+    margin: 0 165px;   
+}
+.company-logo img:hover{
+    background-color: gray;
+    
+}
+.company-logo img{
+    /* height: 39.61px; */
+    margin-left: 20px;
+}
+/* ------------
+popular items collection
+-------------------- */
+
+.section-title{
+    text-align: center;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.item{
+   box-shadow: 0px 5px 13.23px;
+   margin: 30px;
+   padding-top: 17px;
+   padding-left: 20px;  
+}
+.item-title{
+    font-size: 28px;
+}
+.item-picture img{
+    width: 300px;
+   height: 256px;
+}
+.item-rating p{
+    color: #787885;
+    font-size: 14px;
+}
+.filled{
+    color: rgb(219, 155, 15);
+}
+.rating{
+    color: #5E6366;
+}
+/* button styles */
+.button-item a{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.button-item button{
+    color: #E02C6D;
+    border: none;
+    
+}
+
